@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Login page</title>
+</head>
+<body>
+<div class="container">
+    <h2>Login page</h2>
+    <form class="form-horizontal" action="/action_page.php">
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">Email:</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">Password:</label>
+        <div class="col-sm-10">          
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+          <label><input type="checkbox" name="Show" onclick="myfunction()">Show Password</label>
+        </div>
+      </div>
+      <div class="form-group">       
+        <div class="col-sm-offset-2 col-sm-10">
+          <button onclick="window.alert('congrulations! login successfully')" type="submit" class="btn btn-default">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!--java script code-->
+  <script>
+    function myfunction(){
+      let x=document.getElementById('pwd');
+      if(x.type=="password")
+      {
+        x.type="text";
+      }
+      else{
+        x.type="password";
+      }
+    }
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /*background-color:rgb(90, 80, 112);*/
+    background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5)),url(ringpic.jpg);
+}
+.container h2{
+    text-align: center;
+    color: white;
+}
+.container{
+    background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5)),url(mountain_dark.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.container:hover{
+    background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5)),url(mountain_flower.jpg);
+    background-size: cover;
+}
+.container #email{
+    border-radius: 17px;
+    margin-top:4%;
+    padding: 2%;
+    font-size: small;
+}
+.container #email:hover{
+    background-color: rgb(90, 80, 112);
+    transition: 2s;
+    color:white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container #pwd{
+    border-radius: 17px;
+    margin-top: 2%;
+    padding: 2%;
+    font-size: small;
+}
+.container #pwd:hover{
+    background-color: rgb(90, 80, 112);
+    transition: 2s;
+    color:white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container label{
+    margin-top:2.7%;
+    color: white;
+}
+.btn{
+    padding: 1%;
+    font-size: larger;
+    float: right;
+    margin-right: 50%;
+    margin-top: 0.5%;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(99, 80, 112);
+    transition: 2s;
+    color:white;
+}
+.container{
+    border: 2px solid black;
+    margin-top: 6%;
+    border-radius: 17px;
+    padding: 10%;
+}
