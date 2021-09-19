@@ -63,7 +63,7 @@ To deploy this project run
 ```bash
   Add buttons and using some javascript functions
 ```
-## Webiste URL(Airfine)
+## Webiste URL(Login page)
 
 Webiste url you can check from here! https://loginfirst.netlify.app/
 
